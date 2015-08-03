@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RealTimePlot</class>
+ <widget class="QDialog" name="RealTimePlot">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>916</width>
+    <height>510</height>
+   </rect>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="My_Images.qrc">
+    <normaloff>:/Images/Images/Image.ico</normaloff>:/Images/Images/Image.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QCustomPlot" name="widget" native="true"/>
+   </item>
+   <item>
+    <widget class="QCustomPlot" name="widget_2" native="true"/>
+   </item>
+   <item>
+    <widget class="QCustomPlot" name="widget_3" native="true"/>
+   </item>
+   <item>
+    <widget class="QCustomPlot" name="widget_4" native="true"/>
+   </item>
+   <item>
+    <widget class="QCustomPlot" name="widget_5" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header location="global">qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="My_Images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

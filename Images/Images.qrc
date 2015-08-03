@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Image.ico</file>
+        <file>Image.jpg</file>
+        <file>image1.jpg</file>
+        <file>MMRC_Logo_scaled.jpg</file>
+    </qresource>
+</RCC>

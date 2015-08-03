@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Images/Image.ico</file>
+        <file>Images/image1.jpg</file>
+        <file>Images/MMRC_Logo_scaled.jpg</file>
+        <file>Images/meas1.png</file>
+        <file>Images/plotting.jpg</file>
+    </qresource>
+</RCC>
